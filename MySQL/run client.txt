@@ -1,0 +1,1 @@
+kubectl run -it --rm --image=mysql:latest --restart=OnFailure mysql-client -- mysql -h mysql -pOkhotnik
